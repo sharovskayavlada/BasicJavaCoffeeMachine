@@ -21,7 +21,8 @@ public class CoffeeMachineMain {
         System.out.println("1) Создать свой напиток; 2) Приготовить Эспрессо; 3) Приготовить Капучино; 4) Очистка кофе машины");
         int b = scanner.nextInt();
         switch (b) {
-            case 1: System.out.println(",");
+            case 1:
+                System.out.println(",");
                 break;
             case 2: System.out.println("-");
                 break;
